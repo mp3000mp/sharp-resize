@@ -1,6 +1,6 @@
 {
-  "name": "sharp_resize",
-  "version": "1.0.0",
+  "name": "sharp-resize",
+  "version": "0.0.1",
   "description": "resize png",
   "main": "index.js",
   "scripts": {
