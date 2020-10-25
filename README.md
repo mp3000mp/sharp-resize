@@ -1,4 +1,4 @@
-# table-tr-href
+# Sharp Resize
 Simple tool based on [Sharp](https://github.com/lovell/sharp) that allow you to easily resize pictures.
 
 
