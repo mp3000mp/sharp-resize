@@ -3,7 +3,7 @@ let fs = require('fs');
 let path = require('path');
 
 
-let resizeTo = 200; // px
+let resizeTo = 32; // px
 let srcFolder = './input';
 let destFolder = './output';
 let i = 0;
@@ -23,6 +23,9 @@ if(fs.existsSync(srcFolder)){
 
             // resize
             files.forEach(function (file, index) {
+                if ('.' === file.substr(0, 1)) {
+                    return
+                }
 
                 let srcFilePath = path.join(srcFolder, file);
                 let destFilePath = path.join(destFolder, file);

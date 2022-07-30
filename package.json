@@ -10,8 +10,8 @@
   "author": "mp3000mp",
   "license": "Apache-2.0",
   "dependencies": {
-    "fs": "0.0.1-security",
+    "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "sharp": "^0.22.1"
+    "sharp": "^0.30.7"
   }
 }
